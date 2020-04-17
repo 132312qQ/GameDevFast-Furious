@@ -20,3 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/RaceArea03.unity
     guid: 8da364e35461fbc468c9ed89fb46b83f
+  - enabled: 1
+    path: Assets/EasyRoads3D scenes/test scene.unity
+    guid: c72c9c2ab43b0e94aa321290470ebbd5
+  m_configObjects: {}

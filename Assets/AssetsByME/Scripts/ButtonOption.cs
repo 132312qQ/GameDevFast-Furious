@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class ButtonOption : MonoBehaviour {
     public void playGame()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(5);
     }
     public void TrackSelect()
     {

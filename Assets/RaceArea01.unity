@@ -6205,7 +6205,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 18.585815
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -7410,6 +7410,7 @@ GameObject:
   - component: {fileID: 197468657}
   - component: {fileID: 197468656}
   - component: {fileID: 197468659}
+  - component: {fileID: 197468660}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -7520,6 +7521,30 @@ MonoBehaviour:
   ignore: 0
   backupObject: {fileID: 0}
   terrain: {fileID: 0}
+--- !u!114 &197468660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197468655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81fe195562332d04ead2688a86c7325b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mGSDID: 1274081166
+  tTerrain: {fileID: 197468657}
+  SplatResoWidth: 1024
+  SplatResoHeight: 1024
+  SplatBackground: {r: 0, g: 0, b: 0, a: 1}
+  SplatForeground: {r: 1, g: 1, b: 1, a: 1}
+  SplatWidth: 30
+  SplatSkipBridges: 0
+  SplatSkipTunnels: 0
+  SplatSingleRoad: 0
+  SplatSingleChoiceIndex: 0
+  RoadSingleChoiceUID: 
 --- !u!1 &213738872
 GameObject:
   m_ObjectHideFlags: 0
@@ -11509,6 +11534,22 @@ PrefabInstance:
     - target: {fileID: 11400002, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
+      propertyPath: InitialModule.startSizeY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
+      propertyPath: InitialModule.startSizeZ.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
+      propertyPath: InitialModule.startRotationX.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
+      propertyPath: InitialModule.startRotationY.minMaxState
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 19900000, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -25930,8 +25971,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451521206}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 506.29144, y: 180.59677, z: 167.43323}
+  m_LocalRotation: {x: -0.0871723, y: 0.89959055, z: -0.21045254, w: -0.37262255}
+  m_LocalPosition: {x: 520.2504, y: 190.36806, z: 181.39221}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
