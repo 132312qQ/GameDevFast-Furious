@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 public class ButtonOption : MonoBehaviour {
     public void playGame()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(4);
     }
     public void TrackSelect()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
     public void MainMenu()
     {
@@ -30,6 +30,6 @@ public class ButtonOption : MonoBehaviour {
     }
     public void track02()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(3);
     }
 }
