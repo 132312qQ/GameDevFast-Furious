@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/OvalDisplayScene.unity
     guid: 3d2fbdc0a491845569115c98787f446f
+  - enabled: 1
+    path: Assets/CoastalTrackDisplayScene.unity
+    guid: 093d1d95376bc4ff78fa0d12522f7a15
   m_configObjects: {}
